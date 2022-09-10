@@ -21,7 +21,7 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "*://*.youtube.com/*" ]
     }],
 
     "browser_action": {
@@ -36,5 +36,5 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "*://*.youtube.com/*" ]
 }

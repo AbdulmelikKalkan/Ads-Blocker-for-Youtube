@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is Ads Blocker for Youtube. You should tell us what your extension does here.",
+        "message": "This is Ads Blocker for Youtube. This extension removes youtube ads, sponsor popup and other suggested ads.",
         "description": "Description of what the extension does."
     }
 }

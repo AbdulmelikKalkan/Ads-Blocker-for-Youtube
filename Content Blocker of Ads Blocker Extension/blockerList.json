@@ -1,0 +1,11 @@
+[
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "#movie_player > div.video-ads.ytp-ad-module, #contents > ytd-promoted-sparkles-web-renderer, #content > ytd-display-ad-renderer, #masthead-ad, #content > ytd-ad-slot-renderer, #movie_player > div.video-ads.ytp-ad-module, #action-companion-click-target, #rendering-content > ytd-display-ad-renderer"
+        },
+        "trigger": {
+            "url-filter": ".*youtube.*"
+        }
+    }
+]

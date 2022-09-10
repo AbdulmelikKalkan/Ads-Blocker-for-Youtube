@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A780C4128C546290014A2AC /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A780C4028C546290014A2AC /* blockerList.json */; };
+		7A780C4328C546290014A2AC /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A780C4228C546290014A2AC /* ContentBlockerRequestHandler.swift */; };
+		7A780C4728C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7A780C3E28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7AEA3A7F28B7C4FF00B6C734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA3A7E28B7C4FF00B6C734 /* AppDelegate.swift */; };
 		7AEA3A8128B7C4FF00B6C734 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA3A8028B7C4FF00B6C734 /* SceneDelegate.swift */; };
 		7AEA3A8428B7C4FF00B6C734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A8228B7C4FF00B6C734 /* LaunchScreen.storyboard */; };
@@ -17,8 +20,6 @@
 		7AEA3AA428B7C4FF00B6C734 /* Ads Blocker for Youtube Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7AEA3AA328B7C4FF00B6C734 /* Ads Blocker for Youtube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7AEA3AAA28B7C4FF00B6C734 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A6528B7C4FE00B6C734 /* Main.html */; };
 		7AEA3AAB28B7C4FF00B6C734 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A6528B7C4FE00B6C734 /* Main.html */; };
-		7AEA3AAC28B7C4FF00B6C734 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A6728B7C4FE00B6C734 /* Icon.png */; };
-		7AEA3AAD28B7C4FF00B6C734 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A6728B7C4FE00B6C734 /* Icon.png */; };
 		7AEA3AAE28B7C4FF00B6C734 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A6828B7C4FE00B6C734 /* Style.css */; };
 		7AEA3AAF28B7C4FF00B6C734 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A6828B7C4FE00B6C734 /* Style.css */; };
 		7AEA3AB028B7C4FF00B6C734 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A6928B7C4FE00B6C734 /* Script.js */; };
@@ -45,9 +46,22 @@
 		7AEA3AC528B7C4FF00B6C734 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A7528B7C4FF00B6C734 /* popup.css */; };
 		7AEA3AC628B7C4FF00B6C734 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A7628B7C4FF00B6C734 /* popup.js */; };
 		7AEA3AC728B7C4FF00B6C734 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3A7628B7C4FF00B6C734 /* popup.js */; };
+		7AEA3AD928B7C5F700B6C734 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3AD828B7C5F700B6C734 /* Icon.png */; };
+		7AEA3ADA28B7C5F700B6C734 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3AD828B7C5F700B6C734 /* Icon.png */; };
+		7AEA3AE228B81A1300B6C734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEA3AE128B81A1300B6C734 /* Cocoa.framework */; };
+		7AEA3AE528B81A1300B6C734 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA3AE428B81A1300B6C734 /* blockerList.json */; };
+		7AEA3AE728B81A1300B6C734 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA3AE628B81A1300B6C734 /* ContentBlockerRequestHandler.swift */; };
+		7AEA3AEC28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7AEA3ADF28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7A780C4528C546290014A2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AEA3A5F28B7C4FE00B6C734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A780C3D28C546290014A2AC;
+			remoteInfo = "Content Blocker IOS of Ads Blocker Extension";
+		};
 		7AEA3A9B28B7C4FF00B6C734 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7AEA3A5F28B7C4FE00B6C734 /* Project object */;
@@ -62,6 +76,13 @@
 			remoteGlobalIDString = 7AEA3AA228B7C4FF00B6C734;
 			remoteInfo = "Ads Blocker for Youtube Extension (macOS)";
 		};
+		7AEA3AEA28B81A1300B6C734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AEA3A5F28B7C4FE00B6C734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AEA3ADE28B81A1300B6C734;
+			remoteInfo = "Content Blocker of Ads Blocker Extension";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				7A780C4728C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension.appex in Embed App Extensions */,
 				7AEA3A9A28B7C4FF00B6C734 /* Ads Blocker for Youtube Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -83,6 +105,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				7AEA3AA428B7C4FF00B6C734 /* Ads Blocker for Youtube Extension.appex in Embed App Extensions */,
+				7AEA3AEC28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,8 +113,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A780C3E28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Content Blocker IOS of Ads Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A780C4028C546290014A2AC /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		7A780C4228C546290014A2AC /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		7A780C4428C546290014A2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AEA3A6628B7C4FE00B6C734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		7AEA3A6728B7C4FE00B6C734 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		7AEA3A6828B7C4FE00B6C734 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		7AEA3A6928B7C4FE00B6C734 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		7AEA3A6A28B7C4FE00B6C734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,9 +146,23 @@
 		7AEA3AA328B7C4FF00B6C734 /* Ads Blocker for Youtube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ads Blocker for Youtube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEA3AA828B7C4FF00B6C734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AEA3AA928B7C4FF00B6C734 /* Ads Blocker for Youtube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ads Blocker for Youtube.entitlements"; sourceTree = "<group>"; };
+		7AEA3AD828B7C5F700B6C734 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "../../../AdShield/Shared (App)/Resources/Icon.png"; sourceTree = "<group>"; };
+		7AEA3ADF28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Content Blocker of Ads Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEA3AE128B81A1300B6C734 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7AEA3AE428B81A1300B6C734 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		7AEA3AE628B81A1300B6C734 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		7AEA3AE828B81A1300B6C734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AEA3AE928B81A1300B6C734 /* Content_Blocker_of_Ads_Blocker_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Content_Blocker_of_Ads_Blocker_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7A780C3B28C546290014A2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AEA3A7828B7C4FF00B6C734 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,9 +191,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AEA3ADC28B81A1300B6C734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEA3AE228B81A1300B6C734 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A780C3F28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7A780C4028C546290014A2AC /* blockerList.json */,
+				7A780C4228C546290014A2AC /* ContentBlockerRequestHandler.swift */,
+				7A780C4428C546290014A2AC /* Info.plist */,
+			);
+			path = "Content Blocker IOS of Ads Blocker Extension";
+			sourceTree = "<group>";
+		};
 		7AEA3A5E28B7C4FE00B6C734 = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +221,9 @@
 				7AEA3A8E28B7C4FF00B6C734 /* macOS (App) */,
 				7AEA3A9D28B7C4FF00B6C734 /* iOS (Extension) */,
 				7AEA3AA728B7C4FF00B6C734 /* macOS (Extension) */,
+				7AEA3AE328B81A1300B6C734 /* Content Blocker of Ads Blocker Extension */,
+				7A780C3F28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension */,
+				7AEA3AE028B81A1300B6C734 /* Frameworks */,
 				7AEA3A7C28B7C4FF00B6C734 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -181,7 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				7AEA3A6528B7C4FE00B6C734 /* Main.html */,
-				7AEA3A6728B7C4FE00B6C734 /* Icon.png */,
+				7AEA3AD828B7C5F700B6C734 /* Icon.png */,
 				7AEA3A6828B7C4FE00B6C734 /* Style.css */,
 				7AEA3A6928B7C4FE00B6C734 /* Script.js */,
 			);
@@ -219,6 +280,8 @@
 				7AEA3A8D28B7C4FF00B6C734 /* Ads Blocker for Youtube.app */,
 				7AEA3A9928B7C4FF00B6C734 /* Ads Blocker for Youtube Extension.appex */,
 				7AEA3AA328B7C4FF00B6C734 /* Ads Blocker for Youtube Extension.appex */,
+				7AEA3ADF28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension.appex */,
+				7A780C3E28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,9 +325,45 @@
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
+		7AEA3AE028B81A1300B6C734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AEA3AE128B81A1300B6C734 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AEA3AE328B81A1300B6C734 /* Content Blocker of Ads Blocker Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7AEA3AE428B81A1300B6C734 /* blockerList.json */,
+				7AEA3AE628B81A1300B6C734 /* ContentBlockerRequestHandler.swift */,
+				7AEA3AE828B81A1300B6C734 /* Info.plist */,
+				7AEA3AE928B81A1300B6C734 /* Content_Blocker_of_Ads_Blocker_Extension.entitlements */,
+			);
+			path = "Content Blocker of Ads Blocker Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7A780C3D28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A780C4828C546290014A2AC /* Build configuration list for PBXNativeTarget "Content Blocker IOS of Ads Blocker Extension" */;
+			buildPhases = (
+				7A780C3A28C546290014A2AC /* Sources */,
+				7A780C3B28C546290014A2AC /* Frameworks */,
+				7A780C3C28C546290014A2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Content Blocker IOS of Ads Blocker Extension";
+			productName = "Content Blocker IOS of Ads Blocker Extension";
+			productReference = 7A780C3E28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		7AEA3A7A28B7C4FF00B6C734 /* Ads Blocker for Youtube (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AEA3ACE28B7C4FF00B6C734 /* Build configuration list for PBXNativeTarget "Ads Blocker for Youtube (iOS)" */;
@@ -278,6 +377,7 @@
 			);
 			dependencies = (
 				7AEA3A9C28B7C4FF00B6C734 /* PBXTargetDependency */,
+				7A780C4628C546290014A2AC /* PBXTargetDependency */,
 			);
 			name = "Ads Blocker for Youtube (iOS)";
 			productName = "Ads Blocker for Youtube (iOS)";
@@ -297,6 +397,7 @@
 			);
 			dependencies = (
 				7AEA3AA628B7C4FF00B6C734 /* PBXTargetDependency */,
+				7AEA3AEB28B81A1300B6C734 /* PBXTargetDependency */,
 			);
 			name = "Ads Blocker for Youtube (macOS)";
 			productName = "Ads Blocker for Youtube (macOS)";
@@ -337,6 +438,23 @@
 			productReference = 7AEA3AA328B7C4FF00B6C734 /* Ads Blocker for Youtube Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		7AEA3ADE28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AEA3AED28B81A1300B6C734 /* Build configuration list for PBXNativeTarget "Content Blocker of Ads Blocker Extension" */;
+			buildPhases = (
+				7AEA3ADB28B81A1300B6C734 /* Sources */,
+				7AEA3ADC28B81A1300B6C734 /* Frameworks */,
+				7AEA3ADD28B81A1300B6C734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Content Blocker of Ads Blocker Extension";
+			productName = "Content Blocker of Ads Blocker Extension";
+			productReference = 7AEA3ADF28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -347,6 +465,9 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					7A780C3D28C546290014A2AC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					7AEA3A7A28B7C4FF00B6C734 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -357,6 +478,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					7AEA3AA228B7C4FF00B6C734 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7AEA3ADE28B81A1300B6C734 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -378,19 +502,29 @@
 				7AEA3A8C28B7C4FF00B6C734 /* Ads Blocker for Youtube (macOS) */,
 				7AEA3A9828B7C4FF00B6C734 /* Ads Blocker for Youtube Extension (iOS) */,
 				7AEA3AA228B7C4FF00B6C734 /* Ads Blocker for Youtube Extension (macOS) */,
+				7AEA3ADE28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension */,
+				7A780C3D28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7A780C3C28C546290014A2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A780C4128C546290014A2AC /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AEA3A7928B7C4FF00B6C734 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AEA3AAC28B7C4FF00B6C734 /* Icon.png in Resources */,
 				7AEA3A8428B7C4FF00B6C734 /* LaunchScreen.storyboard in Resources */,
 				7AEA3AAA28B7C4FF00B6C734 /* Main.html in Resources */,
 				7AEA3AB028B7C4FF00B6C734 /* Script.js in Resources */,
+				7AEA3AD928B7C5F700B6C734 /* Icon.png in Resources */,
 				7AEA3AB428B7C4FF00B6C734 /* Assets.xcassets in Resources */,
 				7AEA3A8728B7C4FF00B6C734 /* Main.storyboard in Resources */,
 				7AEA3AAE28B7C4FF00B6C734 /* Style.css in Resources */,
@@ -401,11 +535,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AEA3AAD28B7C4FF00B6C734 /* Icon.png in Resources */,
 				7AEA3AAF28B7C4FF00B6C734 /* Style.css in Resources */,
 				7AEA3A9328B7C4FF00B6C734 /* Main.storyboard in Resources */,
 				7AEA3AB128B7C4FF00B6C734 /* Script.js in Resources */,
 				7AEA3AB528B7C4FF00B6C734 /* Assets.xcassets in Resources */,
+				7AEA3ADA28B7C5F700B6C734 /* Icon.png in Resources */,
 				7AEA3AAB28B7C4FF00B6C734 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,9 +574,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AEA3ADD28B81A1300B6C734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEA3AE528B81A1300B6C734 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7A780C3A28C546290014A2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A780C4328C546290014A2AC /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AEA3A7728B7C4FF00B6C734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -478,9 +628,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AEA3ADB28B81A1300B6C734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEA3AE728B81A1300B6C734 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7A780C4628C546290014A2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A780C3D28C546290014A2AC /* Content Blocker IOS of Ads Blocker Extension */;
+			targetProxy = 7A780C4528C546290014A2AC /* PBXContainerItemProxy */;
+		};
 		7AEA3A9C28B7C4FF00B6C734 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7AEA3A9828B7C4FF00B6C734 /* Ads Blocker for Youtube Extension (iOS) */;
@@ -490,6 +653,11 @@
 			isa = PBXTargetDependency;
 			target = 7AEA3AA228B7C4FF00B6C734 /* Ads Blocker for Youtube Extension (macOS) */;
 			targetProxy = 7AEA3AA528B7C4FF00B6C734 /* PBXContainerItemProxy */;
+		};
+		7AEA3AEB28B81A1300B6C734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AEA3ADE28B81A1300B6C734 /* Content Blocker of Ads Blocker Extension */;
+			targetProxy = 7AEA3AEA28B81A1300B6C734 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -529,6 +697,63 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7A780C4928C546290014A2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = YDN465CT2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Content Blocker IOS of Ads Blocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Content Blocker IOS of Ads Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdulmelikkalkan.Ads-Blocker-for-Youtube.Content-Blocker-IOS-of-Ads-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A780C4A28C546290014A2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = YDN465CT2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Content Blocker IOS of Ads Blocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Content Blocker IOS of Ads Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdulmelikkalkan.Ads-Blocker-for-Youtube.Content-Blocker-IOS-of-Ads-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		7AEA3AC828B7C4FF00B6C734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -642,7 +867,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YDN465CT2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -654,7 +879,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -673,7 +898,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YDN465CT2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -685,7 +910,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -705,10 +930,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = IOSAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YDN465CT2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -723,7 +949,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -743,10 +969,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = IOSAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YDN465CT2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -761,7 +988,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -783,7 +1010,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Ads Blocker for Youtube.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YDN465CT2X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -796,7 +1023,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -815,7 +1042,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Ads Blocker for Youtube.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YDN465CT2X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -828,7 +1055,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -850,11 +1077,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Ads Blocker for Youtube.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YDN465CT2X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ads Blocker for Youtube";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -862,7 +1090,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -885,11 +1113,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Ads Blocker for Youtube.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = YDN465CT2X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ads Blocker for Youtube";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -897,7 +1126,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -912,9 +1141,74 @@
 			};
 			name = Release;
 		};
+		7AEA3AEE28B81A1300B6C734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Content Blocker of Ads Blocker Extension/Content_Blocker_of_Ads_Blocker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = YDN465CT2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Content Blocker of Ads Blocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Content Blocker of Ads Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdulmelikkalkan.Ads-Blocker-for-Youtube.Content-Blocker-of-Ads-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7AEA3AEF28B81A1300B6C734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Content Blocker of Ads Blocker Extension/Content_Blocker_of_Ads_Blocker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = YDN465CT2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Content Blocker of Ads Blocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Content Blocker of Ads Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdulmelikkalkan.Ads-Blocker-for-Youtube.Content-Blocker-of-Ads-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7A780C4828C546290014A2AC /* Build configuration list for PBXNativeTarget "Content Blocker IOS of Ads Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A780C4928C546290014A2AC /* Debug */,
+				7A780C4A28C546290014A2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7AEA3A6228B7C4FE00B6C734 /* Build configuration list for PBXProject "Ads Blocker for Youtube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -956,6 +1250,15 @@
 			buildConfigurations = (
 				7AEA3AD628B7C4FF00B6C734 /* Debug */,
 				7AEA3AD728B7C4FF00B6C734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AEA3AED28B81A1300B6C734 /* Build configuration list for PBXNativeTarget "Content Blocker of Ads Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEA3AEE28B81A1300B6C734 /* Debug */,
+				7AEA3AEF28B81A1300B6C734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
